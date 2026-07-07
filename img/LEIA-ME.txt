@@ -1,0 +1,23 @@
+DJC CONSTRUÇÕES — imagens provisórias
+========================================
+
+Os arquivos abaixo foram gerados automaticamente (scripts/generate_placeholders.py)
+e servem apenas para o site não ficar com espaços vazios durante a apresentação.
+ELES NÃO SÃO FOTOS REAIS. Troque cada um por uma foto verdadeira antes de publicar,
+mantendo exatamente o mesmo nome de arquivo e proporção (para não quebrar o layout):
+
+  obra1.jpg   → 600x560  → foto vertical (ex: construção residencial em andamento)
+  obra2.jpg   → 600x280  → foto horizontal (ex: reforma / acabamento)
+  obra3.jpg   → 600x280  → foto horizontal (ex: estrutura / cobertura)
+  obra4.jpg   → 1200x280 → foto bem larga (ex: área externa / piscina)
+  obra5.jpg   → 600x280  → foto horizontal (ex: alvenaria estrutural)
+  sobre.jpg   → 600x750  → foto vertical da equipe em obra
+  og-image.jpg→ 1200x630 → imagem de preview ao compartilhar o link (WhatsApp/Instagram)
+
+Já estão na pasta e reais (identidade visual da marca, não mexer):
+  logo.png, favicon-16x16.png, favicon-32x32.png, apple-touch-icon.png
+
+Para regenerar os placeholders (se precisar deletar e recriar), rode a partir da
+raiz do projeto:
+  pip install pillow
+  python3 scripts/generate_placeholders.py
